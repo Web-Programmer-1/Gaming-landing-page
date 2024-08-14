@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans
+{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+ #youtube{
+    color: red;
+    font-size: 29px;
+    margin-left: 5px
+ }
+ #tiktok{
+    color: black;
+    font-size: 28px;
+    margin-left: 5px;
+ }
+.nav-item>button{
+    width: 262px;
+    height: 50px;
+    font-size: 23px;
+    filter: drop-shadow(4px 3px 5px #cb1a1aa1);
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(90deg, #e900d5, #ea35d2, #eb4ed0, #eb61ce, #ea72cc, #e376cf, #dd7ad2, #d67dd5, #c478de, #ad75e8, #8d74f2, #5f74fb);
+    color: #ffffff;
+
+    
+}
+
+.nav-item,a{
+  font-size: 21px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-container>.logo{
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+}
+
+.nav-container>.logo>img{
+    width: 80px;
+    height: 40px;
+    object-fit: fill;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    min-height: 90px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.532);
+}
+.logo>.sub-content>h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.3%;
+
+}
+.nav-item{
+    margin-right: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.g{
+   color: rgb(255, 66, 165);
+  
+}
+  
